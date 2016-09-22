@@ -1,5 +1,4 @@
-[
-  {
+[{
     "index":1,
     "date":"2016-09-11",
     "title":"初识deepin-Linux",
@@ -26,5 +25,4 @@
     "title":"MongoDB安装",
     "desc":"linux系统安装mongodb数据库",
     "url":"MongoDB安装"
-  }
-]
+  }]
