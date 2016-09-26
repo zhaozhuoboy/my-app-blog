@@ -25,4 +25,12 @@
     "title":"MongoDB安装",
     "desc":"linux系统安装mongodb数据库",
     "url":"MongoDB安装"
+  }
+  ,
+  {
+    "index":5,
+    "date":"2016-09-26",
+    "title":"在linux服务器上部署代码",
+    "desc":"今天学习了如何登陆远程服务器在linux系统上部署自己的项目代码，在局域网中模拟服务器，并上传代码模拟上线",
+    "url":"在linux服务器上部署代码"
   }]
