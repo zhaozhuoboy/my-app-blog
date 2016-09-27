@@ -1,36 +1,31 @@
 [{
-    "index":1,
-    "date":"2016-09-11",
-    "title":"初识deepin-Linux",
-    "desc":"安装深度linux系统进行前端开发",
-    "url":"初识deepin-Linux"
-  },
-  {
-    "index":2,
-    "date":"2016-09-11",
-    "title":"Linux安装node",
-    "desc":"在linux系统下安装nodejs",
-    "url":"Linux安装node"
-  },
-  {
-    "index":3,
-    "date":"2016-09-11",
-    "title":"Git基础操作",
-    "desc":"学习git操作，创建仓库 做版本 提交代码",
-    "url":"Git基础操作"
-  },
-  {
-    "index":4,
-    "date":"2016-09-11",
-    "title":"MongoDB安装",
-    "desc":"linux系统安装mongodb数据库",
-    "url":"MongoDB安装"
-  }
-  ,
-  {
-    "index":5,
-    "date":"2016-09-26",
-    "title":"在linux服务器上部署代码",
-    "desc":"今天学习了如何登陆远程服务器在linux系统上部署自己的项目代码，在局域网中模拟服务器，并上传代码模拟上线",
-    "url":"在linux服务器上部署代码"
-  }]
+	"index": 1,
+	"date": "2016-09-11",
+	"title": "初识deepin-Linux",
+	"desc": "安装深度linux系统进行前端开发",
+	"url": "初识deepin-Linux"
+}, {
+	"index": 2,
+	"date": "2016-09-11",
+	"title": "Linux安装node",
+	"desc": "在linux系统下安装nodejs",
+	"url": "Linux安装node"
+}, {
+	"index": 3,
+	"date": "2016-09-11",
+	"title": "Git基础操作",
+	"desc": "学习git操作，创建仓库 做版本 提交代码",
+	"url": "Git基础操作"
+}, {
+	"index": 4,
+	"date": "2016-09-11",
+	"title": "MongoDB安装",
+	"desc": "linux系统安装mongodb数据库",
+	"url": "MongoDB安装"
+}, {
+	"index": 5,
+	"date": "2016-09-26",
+	"title": "在linux服务器上部署代码",
+	"desc": "今天学习了如何登陆远程服务器在linux系统上部署自己的项目代码，在局域网中模拟服务器，并上传代码模拟上线",
+	"url": "在linux服务器上部署代码"
+}]
