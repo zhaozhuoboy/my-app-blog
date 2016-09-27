@@ -45,22 +45,22 @@
 
   # 局域网内模拟部署过程
 
-  1 查看作为服务器 机器的 ip `ifconfig`
+  1. 查看作为服务器 机器的 ip `ifconfig`
 
-  2 用自己的电脑ping一下服务器的ip 查看是否能连通
+  2. 用自己的电脑ping一下服务器的ip 查看是否能连通
 
-  3 在服务器上安装 ssh server
+  3. 在服务器上安装 ssh server
 
   `sudo apt-get install openssh-server`
 
   开放机器，使别的计算机能够远程登陆这台服务器
 
-  4 登陆服务器
+  4. 登陆服务器
 
    ` ssh zhaozhuo@ip` 然后输入远程服务器的登陆密码
 
 
-  5 上传代码 ssh  git   github
+  5. 上传代码 ssh  git   github
 
   `scp -r test username@ip:`
 
@@ -70,4 +70,4 @@
 
   最后会拷贝到目标机器的用户主目录 `/home/username`
 
-  6 剩下步骤 参考上边 配置服务器nginx
+  6. 剩下步骤 参考上边 配置服务器nginx
