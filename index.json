@@ -28,4 +28,10 @@
 	"title": "在linux服务器上部署代码",
 	"desc": "今天学习了如何登陆远程服务器在linux系统上部署自己的项目代码，在局域网中模拟服务器，并上传代码模拟上线",
 	"url": "在linux服务器上部署代码"
+}, {
+	"index": 6,
+	"date": "2016-10-22",
+	"title": "ajax",
+	"desc": "原生js 创建XMLHtmlRequest 对象，json字符串与json对象的转换",
+	"url": "ajax"
 }]
