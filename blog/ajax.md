@@ -12,14 +12,14 @@ AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。
 
   创建XMLHttpRequest对象的方法
 
-  ```
+  ```js
   var xhr = new XMLHttpRequest();
 
   ```
 
   为了兼容 老浏览器 需要判断浏览器是否支持 XMLHttpRequest 来写出兼容性代码
 
-  ```
+  ```js
   var xhr = null;
   if (window.XMLHttpRequest){
     xhr = new XMLHttpRequest() //浏览器支持 XMLHttpRequest对象 直接创建
@@ -40,7 +40,7 @@ AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。
 
   - GET 请求
 
-  ```
+  ```js
   xhr.open('GET','https://api.github.com/users/zhaozhuoboy','true') ;
   xhr.send();
 
@@ -50,7 +50,7 @@ AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。
 
   > 如果需要像 HTML 表单那样 POST 数据，需要使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定发送的数据：
 
-  ```
+  ```js
 
   xhr.open("POST","ajax_test.html",true);
   xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
@@ -78,7 +78,7 @@ XMLHttpRequest 对象的 responseText 或 responseXML 属性 保存着服务器�
 
   当 readyState 等于 4 且状态为 200 时，表示响应已就绪
 
-  ```
+  ```js
   //如果async = true   异步请求时候 就要在  onreadystatechange这个 方法触发的时候 进行下一步的操作
   xhr.onreadystatechange=function()
   {
