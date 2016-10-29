@@ -4,9 +4,11 @@
 
   `scp -r test zhaozhuo.club ` 通过ssh协议 将本地项目拷贝到服务器上（域名可以是ip）
 
-2. 登录到服务器 ssh ip/域名
+2. 登录到服务器 ssh 用户名@ip/域名
 
-  `ssh zhaozhuo.club/IP`
+  `ssh zhaozhuo@zhaozhuo.club/IP`
+
+  > 用户名是指 服务器上的 用户名，如果本地用户名和服务器的用户名相同 可以直接用  ssh ip/域名 登录
 
 3. 安装（软件）服务器 nginx
 
